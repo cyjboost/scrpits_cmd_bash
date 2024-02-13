@@ -4,7 +4,8 @@
 * 更改server.propertities并且允许offline-mode
 * 默认开服脚本位置在~/mc/startmcs.sh
 ### **注意事项**
-* 为确保服务器以及脚本能够顺利运行，请先行安装好wget screen这两个软件包
+* 为确保服务端以及脚本能够顺利运行，请先行安装好wget screen这两个软件包
+* 默认使用1536M内存运行服务端，如果内存不足请提前开好swap
 ### *脚本分架构*
 * [arm64](https://fastly.jsdelivr.net/gh/cyjboost/scrpits_cmd_bash@mcserver_bash/arm64_mcserver.sh)
 
