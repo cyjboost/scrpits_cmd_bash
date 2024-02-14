@@ -29,6 +29,6 @@ echo "eula=true" > eula.txt
 #下载服务器配置文件
 wget https://fastly.jsdelivr.net/gh/cyjboost/scrpits_cmd_bash@mcserver_bash/server.properties
 #默认使用1536M内存，如果内存不够请打开足够的swap
-echo "screen -dmS mcs ~/mc/zulu21_aarch64/bin/java -Xmn1536M -Xmx1536M -jar server.jar nogui" > ~/mc/startmcs.sh
+echo "screen -dmS mcs ~/mc/zulu21_aarch64/bin/java -Xmn1536M -Xmx1536M -jar ~/mc/server/server.jar nogui" > ~/mc/startmcs.sh
 #创建开服脚本，请先安装好screen这个软件
 chmod +x ~/mc/startmcs.sh
