@@ -3,11 +3,15 @@
 cd ~
 #创建相关文件夹
 mkdir mc
+sleep 1
 cd ~/mc
 mkdir server
+sleep 1
 #下载server.jar到server文件夹
 cd ~/mc/server
+sleep 1
 cd wget https://piston-data.mojang.com/v1/objects/8dd1a28015f51b1803213892b50b7b4fc76e594d/server.jar
+sleep 1
 cd ~/mc
 #下载jre
 wget https://cdn.azul.com/zulu/bin/zulu21.32.17-ca-jre21.0.2-linux_aarch64.tar.gz
