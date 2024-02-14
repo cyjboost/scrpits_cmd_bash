@@ -9,7 +9,7 @@
 ### *脚本分架构*
 * [arm64](https://fastly.jsdelivr.net/gh/cyjboost/scrpits_cmd_bash@mcserver_bash/arm64_mcserver.sh)
 
-### **如何运行？(arm64为例)
+### ** 如何运行？(arm64为例)
 * wget https://fastly.jsdelivr.net/gh/cyjboost/scrpits_cmd_bash@mcserver_bash/arm64_mcserver.sh
 * bash arm64_mcserver.sh
 
