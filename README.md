@@ -13,5 +13,3 @@
 * wget https://fastly.jsdelivr.net/gh/cyjboost/scrpits_cmd_bash@mcserver_bash/arm64_mcserver.sh
 * bash arm64_mcserver.sh
 
-### **注意事项
-* 如果使用linux deploy这类容器，请务必使用root账户，否则无法解析dns
