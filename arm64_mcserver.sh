@@ -10,7 +10,7 @@ sleep 1
 #下载server.jar到server文件夹
 cd ~/mc/server
 sleep 1
-cd wget https://piston-data.mojang.com/v1/objects/8dd1a28015f51b1803213892b50b7b4fc76e594d/server.jar
+wget https://piston-data.mojang.com/v1/objects/8dd1a28015f51b1803213892b50b7b4fc76e594d/server.jar
 sleep 1
 cd ~/mc
 #下载jre
